@@ -1,0 +1,40 @@
+{
+    "name": "rafni/auth",
+    "description": "Basic module for users who have registration, authentication, and reestablishment of forgotten passwords.",
+    "license": "MIT",    
+    "authors": [
+        {
+            "name": "Alberto Rafael",
+            "email": "rafnicoder@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rafni\\Auth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rafni\\Auth\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rafni\\Auth\\Providers\\AuthenticationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist"
+    }
+}

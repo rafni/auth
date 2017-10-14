@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rafni\\Auth\\Providers\\AuthenticationServiceProvider"
+                "Rafni\\Auth\\AuthenticationServiceProvider"
             ]
         }
     },
